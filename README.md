@@ -6,7 +6,6 @@
 
 - [Automatic speech recognition](english/automatic_speech_recognition.md)
 - [CCG supertagging](english/ccg_supertagging.md)
-- [Chunking](english/chunking.md)
 - [Common sense](english/common_sense.md)
 - [Constituency parsing](english/constituency_parsing.md)
 - [Coreference resolution](english/coreference_resolution.md)
@@ -31,6 +30,8 @@
 - [Semantic parsing](english/semantic_parsing.md)
 - [Semantic role labeling](english/semantic_role_labeling.md)
 - [Sentiment analysis](english/sentiment_analysis.md)
+- [Shallow syntax](english/shallow_syntax.md)
+- [Simplification](english/simplification.md)
 - [Stance detection](english/stance_detection.md)
 - [Summarization](english/summarization.md)
 - [Taxonomy learning](english/taxonomy_learning.md)
@@ -41,6 +42,7 @@
 ### Chinese
 
 - [Entity linking](chinese/chinese.md#entity-linking)
+- [Chinese word segmentation](chinese/chinese_word_segmentation.md)
 
 ### Hindi
 
@@ -118,9 +120,9 @@ In both cases, follow the steps below:
   has multiple metrics, add them to the right of `Score`.
 1. Submit your change as a pull request.
   
-| Model           | Score  |  Paper / Source | Code | 
-| ------------- | :-----:| --- | --- | 
-|  |  |  | | 
+| Model           | Score  |  Paper / Source | Code |
+| ------------- | :-----:| --- | --- |
+|  |  |  | |
 
 
 ### Wish list
@@ -133,7 +135,16 @@ These are tasks and datasets that are still missing:
 - Knowledge base population (KBP)
 - More dialogue tasks
 - Semi-supervised learning
+- Frame-semantic parsing (FrameNet full-sentence analysis)
+
+### Exporting into a structured format
+
+You can extract all the data into a structured, machine-readable JSON format with parsed tasks, descriptions and SOTA tables. 
+
+The instructions are in [structured/README.md](structured/README.md).
 
 ### Instructions for building the site locally
 
 Instructions for building the website locally using Jekyll can be found [here](jekyll_instructions.md).
+
+
